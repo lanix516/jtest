@@ -30,7 +30,7 @@ describe('test/controller/home.test.ts', () => {
 
     // use expect by jest
     expect(result.status).toBe(200);
-    expect(result.text).toBe('//www.baidu.com/img/flexible/logo/pc/index.png');
+    expect(result.text).toBe('//www.baidu.com/img/bd_logo1.png');
   });
 
 });
